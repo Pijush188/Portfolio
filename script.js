@@ -22,6 +22,23 @@ menuicon.onclick=()=>{
     navbar.classList.toggle('active');
 }
 
+// Select all social links
+const socialLinks = document.querySelectorAll(".social");
+
+// Apply hover effect with timeout
+socialLinks.forEach((link) => {
+    link.addEventListener("mouseenter", () => {
+        link.classList.add("hover-active"); // Add hover effect
+        setTimeout(() => {
+            link.classList.remove("hover-active"); // Remove hover effect after timeout
+        }, 1000); // Timeout duration in milliseconds
+    });
+
+    link.addEventListener("mouseleave", () => {
+        link.classList.remove("hover-active"); // Ensure hover effect is removed immediately on mouse leave
+    });
+});
+
 // Check if EmailJS is loaded
 if (typeof emailjs !== "undefined") {
     console.log("EmailJS library loaded successfully!");
