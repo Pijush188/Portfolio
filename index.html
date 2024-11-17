@@ -13,7 +13,6 @@
 <body>
     <header class="header">
         <a href="#home" class="logo">Pijush <span>Das</span></a>
-        <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#education">Education</a>
@@ -21,6 +20,9 @@
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
+        <!-- <div id="real-time-clock" class="time-display"></div> -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+
     </header>
     <section class="home" id="home">
         <div class="home-content">
@@ -67,7 +69,7 @@
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2018</div>
                     <div class="timeline-content">
-                        <h3>College</h3>
+                        <h3>Secondary Education</h3>
                         <p>Searsole Raj High School, Raniganj, West Bengal<br>Affiliation: West Bengal Board of Secondary Education (WBBSE)<br>Percentage: 88%</p>
                     </div>
             </div>
@@ -180,6 +182,39 @@
             </div>
         </div>
     </section>
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="./projectpic/SHA.jpg" alt="Project1">
+                <div class="layer">
+                    <h3>Smart Home Automation</h3>
+                    <p>This project introduces a smart home solution using the ESP32 microcontroller for enhanced convenience and sustainability. Features include occupancy-based controls, water and air quality monitoring, weather-based adjustments, and voice assistant integration. With affordability, privacy, and user experience as priorities, it promises smarter living and future-ready advancements like AI and sustainability.</p>
+                    <a href="https://github.com/Pijush188/Smart-Home-Automation.git" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./projectpic/chat.jpg" alt="Project1">
+                <div class="layer">
+                    <h3>Chat Application</h3>
+                    <p>TThis project is a feature-rich chat application inspired by WhatsApp, developed using Java Swing, Java AWT, and Java socket programming. The application provides a seamless user experience with an intuitive graphical interface, enabling real-time communication between users over a local network. Leveraging Java's robust socket programming for server-client communication.</p>
+                    <a href="https://github.com/Pijush188/Chat-Application.git" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./projectpic/applevisionpro.jpg" alt="Project1">
+                <div class="layer">
+                    <h3>Apple Vision UI</h3>
+                    <p>This project is an interactive and visually captivating website designed to replicate the look and feel of the original Apple Vision Pro website. Utilizing a combination of HTML, CSS, JavaScript, GSAP, ScrollTrigger, and Canva-JavaScript, the website features sophisticated animations and seamless user interactions. The design emphasizes modern web technologies to deliver a fluid and immersive experience, with dynamic scrolling effects, engaging transitions, and responsive layouts, all aimed at showcasing the product in an innovative, professional manner similar to the Apple Vision Pro's official presentation.</p>
+                    <div class="linkage">
+                        <a href="https://github.com/Pijush188/apple-vision-ui.git" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://pijush188.github.io/apple-vision-ui/"><i class='bx bx-link-external'></i></a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
         <form>
@@ -189,7 +224,7 @@
                     <input type="email" id="email" placeholder="Email" required>
                 </div>
                 <div class="input-box">
-                    <input type="number" id="phno" placeholder="Phone Number">
+                    <input type="number" id="phone" placeholder="Phone Number">
                     <input type="text" id="subject" placeholder="Subject">
                 </div>
             </div>
