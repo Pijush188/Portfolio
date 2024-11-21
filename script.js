@@ -52,7 +52,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
     // Collect form data
     const fullName = document.getElementById("fullname").value.trim();
     const email = document.getElementById("email").value.trim();
-    const phone = document.getElementById("phno").value.trim();
+    const phone = document.getElementById("phone").value.trim();
     const subject = document.getElementById("subject").value.trim();
     const message = document.getElementById("message").value.trim();
 
